@@ -38,16 +38,16 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-        <div className="bg-[#1e293b] p-8 rounded-2xl border border-slate-700 shadow-xl">
+        <div className="bg-[#1e293b] p-8 rounded-2xl border border-slate-700 shadow-xl text-center">
           <p className="text-slate-400 text-xs uppercase mb-4 tracking-widest">Potenza Totale</p>
           <h2 className="text-5xl font-bold text-white">8030 <span className="text-2xl text-slate-500">TH/s</span></h2>
         </div>
-        <div className="bg-[#1e293b] p-8 rounded-2xl border border-yellow-500/20 shadow-xl">
+        <div className="bg-[#1e293b] p-8 rounded-2xl border border-yellow-500/20 shadow-xl text-center">
           <p className="text-slate-400 text-xs uppercase mb-4 tracking-widest">Saldo BTC</p>
           <h2 className="text-5xl font-bold text-yellow-500">0.0002874122</h2>
         </div>
       </div>
-      <button className="w-full bg-indigo-600 hover:bg-indigo-700 py-6 rounded-2xl text-xl font-bold uppercase transition transform hover:scale-[1.01]">
+      <button className="w-full bg-indigo-600 hover:bg-indigo-700 py-6 rounded-2xl text-xl font-bold uppercase transition">
         💳 Effettua Versamento
       </button>
     </div>
