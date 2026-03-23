@@ -16,7 +16,7 @@ export default function Dashboard() {
       }
     };
     checkUser();
-  }, []);
+  }, [router]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
@@ -49,7 +49,7 @@ export default function Dashboard() {
       </div>
       <button className="w-full bg-indigo-600 hover:bg-indigo-700 py-6 rounded-2xl text-xl font-bold uppercase transition">
         💳 Effettua Versamento
-      </button> 
+      </button>
     </div>
   );
-}     
+}
